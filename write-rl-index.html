@@ -27,12 +27,28 @@
 <h1 style="color:indigo">Writing Resources Library</h1>
 <small>(In the future i will add an archived version of the links where possible)</small>
 <ul>
+<!--
     <?php
         function insert_link($link, $title)
             {echo "<li><a href= $link >$title</a></li>";}
         insert_link("https://booklaunch.com/the-adhd-guide-to-writing/", "The ADHD guide to writing (booklaunch.com)");
 
-            ?></ul></table>
+            ?>-->
+
+<script>
+function insert_link(link_url, link_title){
+    document.write('<li><a href="');
+    document.write(link_url);
+    document.write('">');
+    document.write(link_title);
+    document.write('</a></li>');}
+    insert_link("https://booklaunch.com/the-adhd-guide-to-writing/", "The ADHD guide to writing (booklaunch.com)");
+    insert_link("https://www.tumblr.com/whitneywrites/647037932543361024/hair-texture-appearance", "How to describe hair texture and appearance");
+</script>
+
+
+
+</ul></table>
 
 
 
